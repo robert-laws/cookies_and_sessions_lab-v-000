@@ -3,9 +3,7 @@ class ProductsController < ApplicationController
   end
 
   def add
-    # cart = session[:cart] || []
-    # cart << @item.id
-    #
-    # session[:cart] = cart
+    cart << params[:product]
+    render :index
   end
 end
