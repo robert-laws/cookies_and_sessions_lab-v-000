@@ -5,7 +5,7 @@ class ProductsController < ApplicationController
   def add
     # cart = session[:cart] || []
     # cart << @item.id
-    # 
+    #
     # session[:cart] = cart
   end
 end
